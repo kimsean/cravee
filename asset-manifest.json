@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cravee/static/css/main.fc42ff91.chunk.css",
+    "main.js": "/cravee/static/js/main.f268b968.chunk.js",
+    "main.js.map": "/cravee/static/js/main.f268b968.chunk.js.map",
+    "runtime~main.js": "/cravee/static/js/runtime~main.2321d4ab.js",
+    "runtime~main.js.map": "/cravee/static/js/runtime~main.2321d4ab.js.map",
+    "static/css/2.266e55a5.chunk.css": "/cravee/static/css/2.266e55a5.chunk.css",
+    "static/js/2.44df593b.chunk.js": "/cravee/static/js/2.44df593b.chunk.js",
+    "static/js/2.44df593b.chunk.js.map": "/cravee/static/js/2.44df593b.chunk.js.map",
+    "index.html": "/cravee/index.html",
+    "precache-manifest.f2f2f44d08bbff9a1c0dd04c376d1679.js": "/cravee/precache-manifest.f2f2f44d08bbff9a1c0dd04c376d1679.js",
+    "service-worker.js": "/cravee/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/cravee/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.fc42ff91.chunk.css.map": "/cravee/static/css/main.fc42ff91.chunk.css.map",
+    "static/media/all.svg": "/cravee/static/media/all.9c846277.svg",
+    "static/media/beef.svg": "/cravee/static/media/beef.c5013cc2.svg",
+    "static/media/beer.svg": "/cravee/static/media/beer.039e6315.svg",
+    "static/media/chicken.svg": "/cravee/static/media/chicken.09c8c2f8.svg",
+    "static/media/coffee.svg": "/cravee/static/media/coffee.0c7d8867.svg",
+    "static/media/crab.svg": "/cravee/static/media/crab.4baa5277.svg",
+    "static/media/pizza.svg": "/cravee/static/media/pizza.a9ef106e.svg",
+    "static/media/ramen.svg": "/cravee/static/media/ramen.70ff5827.svg",
+    "static/media/shawarma.svg": "/cravee/static/media/shawarma.663465de.svg",
+    "static/media/shrimp.svg": "/cravee/static/media/shrimp.07370908.svg"
+  }
+}
