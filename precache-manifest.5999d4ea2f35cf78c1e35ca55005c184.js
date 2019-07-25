@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "070ebd8ad8048252e7d30a5b47faf567",
+    "revision": "ac34657c997d81c8fbfd3916b996ee15",
     "url": "/cravee/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cravee/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "b7bec5cd83cd95a1005f",
+    "revision": "d782dadb273b44222e29",
     "url": "/cravee/static/css/main.fc42ff91.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cravee/static/js/2.44df593b.chunk.js"
   },
   {
-    "revision": "b7bec5cd83cd95a1005f",
-    "url": "/cravee/static/js/main.f268b968.chunk.js"
+    "revision": "d782dadb273b44222e29",
+    "url": "/cravee/static/js/main.75e7a671.chunk.js"
   },
   {
     "revision": "b732c81a088b48fc9405",
