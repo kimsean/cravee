@@ -8,8 +8,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-        <Route path="/app" exact component={Application} />
-        <Route path="/" exact component={Home} />
+        <Route path="/app" component={Application} />
+        <Route path="/" component={Home} />
     </Router>
   );
 }
