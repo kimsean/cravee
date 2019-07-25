@@ -1,0 +1,133 @@
+$green: #ADC965;
+$blue: #89D5C9;
+$yellow: #FAC172;
+$orange: #FF8357;
+$red: #E25B45;
+$myfont:'Darker Grotesque', sans-serif;
+
+@mixin no-scroll-bar() {
+  &::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    height: 0;
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-track {
+    height: 0;
+    width: 0;
+  }
+}
+
+#home {
+  background: $orange;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Darker Grotesque', sans-serif;
+  h1{
+    font-size: 8rem;
+    color: #ffffff;
+  }
+  .btn-start{
+    border: none;
+    background: $green;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 40px 5px 40px;
+    font-size: 1rem;
+    &:hover{
+      opacity: .9;
+    }
+  }
+}
+#header-bar{
+  background: $red;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-family: $myfont;
+  height: 100px !important;
+  .search-bar{
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding-left:10px;
+    font-family: $myfont;
+    &:focus {
+      outline: none;
+    }
+  }
+  .title-container{
+    position: relative;
+    margin-top: -20px;
+    .title{
+      font-size: 3rem;
+      color: #ffffff;
+    }
+  }
+}
+.category-icons{
+  width: 30px;
+  height: 30px;
+  padding-bottom: 10px;
+  &:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #ffffff;
+  }
+}
+.category-list{
+  padding: 0px;
+  margin-top:15px;
+  li{
+    display: inline-block;
+    margin-right:10px;
+  }
+}
+.restaurant-list{
+  font-family: $myfont;
+  border-right: 1px solid #A4A4A4;
+  height: 100%;
+  padding-right:0px;
+  padding-left: 0px;
+  overflow-y: scroll;
+  @include no-scroll-bar;
+  .selected-restaurant{
+    background:#FAFAFA;
+  }
+  .restaurant-item-list{
+    border-bottom: 1px solid #A4A4A4;
+    .restaurant-name{
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    .restaurant-tags {
+      ul {
+        margin: 0px;
+        padding: 0px;
+        li {
+          display: inline-block;
+          margin-right: 5px;
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 0.8rem;
+          border-radius: 5px;
+          background: $red;
+          color: #ffffff;
+        }
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      background: #FAFAFA;
+    }
+  }
+}
+.no-result{
+  padding: 15px;
+}
+.content-container{
+  height:86.1vh;
+}
